@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["./src/types"],
+    "types": ["@types/jest"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx",
+    "node_modules/eslint-plugin-react/lib/types.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
